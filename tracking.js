@@ -1,7 +1,7 @@
 (function() {
     // every client should have it's own uuid
-    const CLIENT_UUID = 'acde070d-8c4c-4f0d-9d8a-162843c10333';
-    const BACKEND_URL = 'http://localhost:8080';
+    const CLIENT_UUID = '';
+    const BACKEND_URL = '';
     
     const generateUid = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
 
